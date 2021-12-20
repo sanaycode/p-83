@@ -1,6 +1,12 @@
 body {
     text-align: center;
+
 }
 #myCanvas {
     border-style: ridge;
+}
+.canvas1{
+    background-image: url("canas.jpg");
+    background-position: center;
+    background-size: cover;
 }
