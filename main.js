@@ -3,7 +3,7 @@ var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var color = "black";
 var widthof_line = 2;
-var radius = document.getElementById("radius").value;
+var radius = 9;
 canvas.addEventListener("mousedown", my_mousedown);
 function my_mousedown(e) {
   color = document.getElementById("color").value;
