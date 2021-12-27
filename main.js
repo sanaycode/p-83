@@ -33,6 +33,7 @@ function my_mousemove(e){
     ctx.stroke();
   }
 }
+canvas.addEventListener("touchstart", my_touchstart);
 function my_touchstart(e)
     {
         console.log("my touchstart");
