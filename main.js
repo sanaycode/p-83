@@ -71,4 +71,10 @@ function my_touchmove(e)
           
         
     }
+    function clearcanvas(){
+      ctx.clearRect(0,0,canvas.width, canvas.height);
+      document.getElementById("radius").innerHTML="";
+      document.getElementById("color").innerHTML="";
+      document.getElementById("width_of_line").innerHTML="";
+  }
 
